@@ -1,0 +1,21 @@
+---
+name: zabbix
+pack: alertagility
+runner_type: "local-shell-scripit"
+description: Zabbix Command
+enabled: true
+entry_point: /usr/local/bin/alertagility-zabbix
+parameters:
+    host:
+        type: string
+        description: Host IP or FQDN
+        required: true
+    port:
+        type: string
+        description: port
+        required: true
+        default: "10050"
+    command:
+        type: string
+        description: command to run
+        required: true

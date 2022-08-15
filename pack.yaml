@@ -1,0 +1,16 @@
+---
+ref: alertagility
+name: Alertagility Zabbix integration
+description: Alertagility Zabbix interagion to run external commands.
+# Keywords which are used when searching for packs.
+keywords:
+    - zabbix
+    - alertagility
+    - inithive
+version: 1.0.0
+python_versions:
+  - "3"
+dependencies:
+  - core
+author: Sulochan Acharya
+email: sulochan@inithive.com
