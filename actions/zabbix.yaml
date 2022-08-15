@@ -4,7 +4,7 @@ pack: alertagility
 runner_type: "local-shell-cmd"
 description: Zabbix Command
 enabled: true
-entry_point: "./go-zabbix-get"
+entry_point: "go-zabbix-get"
 parameters:
     host:
         type: string
