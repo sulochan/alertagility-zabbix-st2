@@ -1,6 +1,6 @@
 ---
 ref: alertagility
-name: Alertagility Zabbix integration
+name: Alertagility Zabbix Agent Integration
 description: Alertagility Zabbix interagion to run external commands.
 # Keywords which are used when searching for packs.
 keywords:

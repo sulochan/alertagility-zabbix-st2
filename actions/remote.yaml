@@ -1,0 +1,18 @@
+---
+name: remote
+pack: alertagility
+runner_type: "local-shell-script"
+description: Remote Command
+enabled: true
+entry_point: "agent-run"
+parameters:
+    s:
+        description: host
+        required: true
+    p:
+        description: port
+        default: 10050
+        required: false
+    k:
+        description: command
+        required: true
