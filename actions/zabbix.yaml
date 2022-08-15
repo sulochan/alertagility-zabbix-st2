@@ -1,10 +1,10 @@
 ---
 name: zabbix
 pack: alertagility
-runner_type: "local-shell-scripit"
+runner_type: "local-shell-cmd"
 description: Zabbix Command
 enabled: true
-entry_point: /usr/local/bin/alertagility-zabbix
+entry_point: "./go-zabbix-get"
 parameters:
     host:
         type: string
