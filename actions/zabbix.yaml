@@ -6,16 +6,6 @@ description: Zabbix Command
 enabled: true
 entry_point: "go-zabbix-get"
 parameters:
-    host:
-        type: string
-        description: Host IP or FQDN
-        required: true
-    port:
-        type: string
-        description: port
-        required: true
-        default: "10050"
     command:
-        type: string
         description: command to run
         required: true
